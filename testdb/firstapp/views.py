@@ -4,4 +4,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-    return HttpResponse("这是黄开杰写的第一个django")
+    return HttpResponse("黄浪波你是个棒槌")
