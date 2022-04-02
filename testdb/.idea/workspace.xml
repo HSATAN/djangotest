@@ -12,14 +12,17 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testdb/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="570">
+              <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="44" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
               </folding>
@@ -27,21 +30,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testdb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3330">
-              <caret line="117" column="55" lean-forward="false" selection-start-line="117" selection-start-column="2" selection-end-line="117" selection-end-column="59" />
+            <state relative-caret-position="360">
+              <caret line="84" column="22" lean-forward="true" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testdb/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firstapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="120">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -52,8 +65,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firstapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="38" />
+            <state relative-caret-position="0">
+              <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
                 <element signature="e#23#51#0" expanded="true" />
               </folding>
@@ -76,6 +89,8 @@
         <option value="$PROJECT_DIR$/testdb/urls.py" />
         <option value="$PROJECT_DIR$/firstapp/urls.py" />
         <option value="$PROJECT_DIR$/firstapp/views.py" />
+        <option value="$PROJECT_DIR$/testdb/__init__.py" />
+        <option value="$PROJECT_DIR$/testdb/settings.py" />
       </list>
     </option>
   </component>
@@ -86,8 +101,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="543" />
-    <option name="y" value="34" />
+    <option name="x" value="338" />
     <option name="width" value="1924" />
     <option name="height" value="1038" />
   </component>
@@ -156,6 +170,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Django server.testdb">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -436,7 +451,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="543" y="34" width="1924" height="1038" extended-state="1" />
+    <frame x="338" y="0" width="1924" height="1038" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25323975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -508,41 +523,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testdb/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3330">
-          <caret line="117" column="55" lean-forward="false" selection-start-line="117" selection-start-column="2" selection-end-line="117" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testdb/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="570">
+          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="44" />
           <folding>
             <element signature="e#630#662#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firstapp/urls.py">
+    <entry file="file://$PROJECT_DIR$/firstapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="38" />
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="e#23#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firstapp/views.py">
+    <entry file="file://$PROJECT_DIR$/testdb/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="84" column="22" lean-forward="true" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -75,8 +75,15 @@ WSGI_APPLICATION = 'testdb.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        #'ENGINE': 'django.db.backends.sqlite3',
+        #'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE':'django.db.backends.mysql',
+        'NAME':'test',
+        'USER':'root',
+        'PASSWORD':'hkj957455',
+        'HOST':'49.235.125.109',
+        'PORT':'3306',
+        'OPTIONS':{'init_command':'SET storage_engine=INNODB'}
     }
 }
 
