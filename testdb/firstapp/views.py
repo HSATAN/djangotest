@@ -5,4 +5,5 @@ from django.http import HttpResponse
 
 def index(request):
     print()
-    return HttpResponse("黄浪波你是个棒槌")
+    return HttpResponse("黄浪波你是个棒槌"
+                        "皇庭也是")
