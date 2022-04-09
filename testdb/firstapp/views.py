@@ -5,7 +5,11 @@ from firstapp.models import test2
 # Create your views here.
 
 def index(request):
-    context = {"data":test2.objects.all()
+    #ip = request.META['HTTP_X_FORWARDED_FOR']
+    ip = request.META['REMOTE_ADDR']
+    print(ip)
+    context = {"data":test2.objects.all(),
+               "IP":ip
                }
     return HttpResponse(render(request,'firstapp/index.html', context))
 def test(request):
