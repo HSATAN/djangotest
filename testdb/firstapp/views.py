@@ -5,10 +5,14 @@ from firstapp.models import test2
 # Create your views here.
 
 def index(request):
-    ip1 = request.META['HTTP_X_FORWARDED_FOR']
-    ip = request.META['REMOTE_ADDR']
+    ip = None
+    if request.META.has_key('HTTP_X_FORWARDED_FOR'):
+        ip = request.META['HTTP_X_FORWARDED_FOR']#使用代理的时候这是真实的IP地址
+    else:
+        ip = request.META['REMOTE_ADDR']
+    # ip1 = request.META['HTTP_X_FORWARDED_FOR']
+    # ip = request.META['REMOTE_ADDR']
     print(ip)
-    print(ip1)
     context = {"data":test2.objects.all(),
                "IP":ip
                }
