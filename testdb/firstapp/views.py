@@ -5,9 +5,10 @@ from firstapp.models import test2
 # Create your views here.
 
 def index(request):
-    #ip = request.META['HTTP_X_FORWARDED_FOR']
+    ip1 = request.META['HTTP_X_FORWARDED_FOR']
     ip = request.META['REMOTE_ADDR']
     print(ip)
+    print(ip1)
     context = {"data":test2.objects.all(),
                "IP":ip
                }
